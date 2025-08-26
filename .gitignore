@@ -1,0 +1,133 @@
+# Weekly Report Tracker - .gitignore
+# Excludes non-essential files for clean GitHub repository
+
+# User Data & Runtime Files
+data/
+reports/
+*.json
+*.db
+*.sqlite
+*.sqlite3
+
+# User-specific directories (created by application at runtime)
+.weekly-report-tracker/
+
+# Backup Files
+*.bkp
+*.bkp-*
+*~
+*.backup
+*.bak
+*.orig
+
+# Python Files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+dist/
+build/
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# System Files
+*.pid
+*.lock
+*.log
+*.tmp
+/tmp/
+
+# Development & Testing Files
+test_*.py
+*_test.py
+run_test.py
+test_app.py
+
+# Legacy/Old Files (keep only current working versions)
+main.py
+main_simple.py  
+main_tray.py
+daemon.py
+simple_daemon.py
+working_daemon.py
+tray_icon.py
+cleanup.sh
+weekly-report.desktop
+
+# Documentation Drafts (keep only final README)
+CLAUDE.md
+CHANGELOG.md
+FINAL_IMPROVEMENTS.md
+QUICK_START.md
+TODO.md
+NOTES.md
+
+# Requirements file (uncomment if you have one)
+# requirements.txt
+
+# Virtual Environment
+.env
+.venv
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Local configuration files
+config.local.*
+settings.local.*
+
+# Generated reports and data
+weekly_report_*.md
+*.report
+*.csv
+*.xlsx
+
+# Lock files
+*.lock
+package-lock.json
+yarn.lock
+
+# Node modules (in case any JavaScript is added)
+node_modules/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Pytest
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
